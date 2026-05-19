@@ -20,4 +20,4 @@ installable via the [`skills`](https://github.com/vercel-labs/skills) CLI.
 
 ## License
 
-AGPL-3.0-or-later. See [LICENSE](LICENSE).
+AGPL-3.0. See [LICENSE](LICENSE).

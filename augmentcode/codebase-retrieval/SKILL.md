@@ -2,7 +2,7 @@
 name: codebase-retrieval
 description: Semantic natural-language search across a codebase using Augment's context engine. Use this skill whenever you need to locate functions, classes, features, or tests in an unfamiliar codebase, whenever you're about to edit code and need to understand the surrounding symbols, whenever you're planning a task that touches a project, or whenever you need a conceptual overview of how something is wired up. Always prefer this over grep, find, rg, or ag for *semantic* code understanding — those tools only match literal strings and miss anything phrased differently. Trigger on user intents like "where is the code that…", "how does this project handle…", "add a feature to…", "fix a bug in…", "refactor X", "understand this codebase", or any question about code in a project you haven't already loaded into context, even if the user doesn't explicitly say "search" or "find".
 compatibility: Requires the Augment Code `codebase-retrieval` MCP tool to be configured in the agent.
-license: AGPL-3.0-or-later
+license: AGPL-3.0
 metadata:
   author: engels74
   version: "1.0.0"
