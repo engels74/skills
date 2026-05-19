@@ -15,6 +15,7 @@ installable via the [`skills`](https://github.com/vercel-labs/skills) CLI.
 
 | Vendor | Skill | Description |
 |---|---|---|
+| astro | [`starlight-docs`](astro/starlight-docs/SKILL.md) | Build, configure, and author Starlight (Astro-based) documentation sites. |
 | augmentcode | [`codebase-retrieval`](augmentcode/codebase-retrieval/SKILL.md) | Semantic codebase search via Augment's context engine. |
 
 ## License
