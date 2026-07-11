@@ -1,0 +1,4 @@
+interface:
+  display_name: "Panel Egg Round-Trip"
+  short_description: "Round-trip Pelican and Pterodactyl eggs"
+  default_prompt: "Use $panel-egg-roundtrip to import, export, validate, and clean up temporary Pelican and Pterodactyl panel environments for these egg files."

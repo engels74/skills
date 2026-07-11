@@ -17,6 +17,7 @@ installable via the [`skills`](https://github.com/vercel-labs/skills) CLI.
 |---|---|---|
 | astro | [`starlight-docs`](astro/starlight-docs/SKILL.md) | Build, configure, and author Starlight (Astro-based) documentation sites. |
 | augmentcode | [`codebase-retrieval`](augmentcode/codebase-retrieval/SKILL.md) | Semantic codebase search via Augment's context engine. |
+| pelican-eggs | [`panel-egg-roundtrip`](pelican-eggs/panel-egg-roundtrip/SKILL.md) | Round-trip Pelican and Pterodactyl eggs through temporary panel installations. |
 
 ## License
 
