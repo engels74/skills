@@ -89,8 +89,10 @@ Inspect the downloaded files before adapting them because upstream structure can
 ```bash
 docker --context "$DOCKER_CONTEXT" run --rm \
   -v "${PELICAN_PROJECT}_pelican-data:/data" alpine:latest \
-  mkdir -p /data/plugins
+  sh -c 'mkdir -p /data/plugins && chmod 0777 /data /data/plugins'
 ```
+
+The permissive mode is limited to the disposable task volume. Without it, creating the volume as root can prevent Pelican from writing `/pelican-data/.env` and cause HTTP 500 responses.
 
 ### Pterodactyl adaptations
 
